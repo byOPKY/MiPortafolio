@@ -81,6 +81,7 @@ section .about{
 #works .trabajos{
 	padding: 10% 0;
 }
+
 .planetas{
 	background-position: top;
 	background-repeat: no-repeat;
@@ -131,6 +132,9 @@ section .about{
 	background-image: url("../img/jupiter.png");
 	background-size: 40%;
 }
+#none{
+	display: none;
+}
 
 @media. (max-width: 900px) {
 
@@ -139,5 +143,35 @@ section .about{
 	
 }
 @media (max-width: 600px) {
-	
+	body{
+			font-size: 16px;
+	}
+	header .fixed-action-btn{
+		display: none;
+	}
+	#header{
+		background-size: 350%;
+		padding: 1%;
+	}
+	#nave{
+		background-size: 20%;
+		height: 90px;
+		z-index: 99;
+	}
+	#ovni{
+		background-image: url("../img/nave.png");
+		background-repeat: no-repeat;
+		background-size: 13%;
+		height: 50px;
+		z-index: 99;
+	}
+	#none{
+	display: block;
+	}
+
+	#block{
+		display: none;
+	}
+
+
 }

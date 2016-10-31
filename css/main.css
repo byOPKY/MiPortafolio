@@ -3,6 +3,7 @@
 	}
 body{
 	background-image: url("../img/cielo.jpg");
+	font-size: 20px;
 }
 .bg-vh{
 	height: 100vh;
@@ -11,8 +12,13 @@ body{
 	font-family: "Clicker Script", cursive;
 	margin:0;
 	font-size: 120px;
-	}
-
+	text-shadow: 5px 5px 5px  #ffc400;
+	color: #ffc400;
+}
+#contact .ambar{
+	color: #ffc400;
+	padding: 12% 0;
+}
 #developer{
 	font-family: 'Bungee Shade', cursive;
 	}
@@ -38,7 +44,15 @@ body{
 	height: 100px;
 	z-index: 99;
 }
-.fixed-action-btn{#;
+.hidden{
+	display: none;
+}
+#mySelf .card-panel{
+	text-shadow: 1px 1px 1px  #ffc400;
+	color: #ffc400 ;
+
+}
+.fixed-action-btn{
 	bottom: 45px; 
 	right: 24px;
 }
@@ -50,9 +64,11 @@ body{
 	height: 100vh;
 	padding: 20% 3%;
 }
-#about{
+section .about{
+	text-align: center;
 	z-index: 99;
 	color: #ffc400;
+	font-family: 'Oleo Script Swash Caps', cursive;
 }
 #human{
 	background-position: bottom;
@@ -62,6 +78,60 @@ body{
 	height: 100vh;
 	padding: 20% 3%;
 }
+#works .trabajos{
+	padding: 10% 0;
+}
+.planetas{
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+#sol{
+	background-image: url("../img/sol.gif");
+	background-size: 50%;
+}
+#ceres{
+	background-image: url("../img/ceres.png");
+	background-size: 50%;
+}
+#marte{
+	background-image: url("../img/marte.png");
+	background-size: 40%;
+}
+
+#tierra{
+	background-image: url("../img/tierra.gif");
+	background-size: 40%;
+}
+#venus{
+	background-image: url("../img/venus.png");
+	background-size: 40%;
+}
+#mercurio{
+	background-image: url("../img/mercurio.png");
+	background-size: 40%;
+}
+#saturno{
+	background-image: url("../img/saturno.png");
+	background-size: 50%;
+}
+#urano{
+	background-image: url("../img/urano.png");
+	background-size: 40%;
+}
+#neptuno{
+	background-image: url("../img/neptune.png");
+	background-size: 40%;
+}
+#pluton{
+	background-image: url("../img/pluton.png");
+	background-size: 40%;
+} 
+#jupiter{
+	background-image: url("../img/jupiter.png");
+	background-size: 40%;
+}
+
 @media. (max-width: 900px) {
 
 }

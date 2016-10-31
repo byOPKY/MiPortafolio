@@ -30,13 +30,13 @@ $(document).ready(function(){
 	function move () {
 		var nave = $("#nave");
 		nave.animate({
-			backgroundPositionX:"+=250px"
+			backgroundPositionX:"+=150px"
 		}, 3000);
 		nave.animate({
 			backgroundPositionX:"+=350px"
 		}, 2000);
 		nave.animate({
-			backgroundPositionX:"-=250px"
+			backgroundPositionX:"-=150px"
 		}, 2000);
 		nave.animate({
 			backgroundPositionX:"-=350px"
@@ -96,28 +96,6 @@ $(document).ready(function(){
 		
 	}
 
-});
-
-/*function start () {
-		var nombre = $("#nombres");
-		nombre.animate({
-			letterSpacing:"+=10px"
-		}, "slow");
-	}
-function start () {
-		var devep = $("#developer");
-		devep.animate({
-			backgroundPositionX:"+=50px"
-		}, "slow");
-		devep.animate({
-			backgroundPositionX:"+=0px"
-		}, "slow");
-		devep.animate({
-			backgroundPositionX:"-=50px"
-		}, "slow");
-		devep.animate({
-			backgroundPositionX:"+=0px"
-		}, "slow");
-	}
 	
-	*/
+
+});

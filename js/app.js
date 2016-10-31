@@ -99,3 +99,6 @@ $(document).ready(function(){
 	
 
 });
+/*$(".valign-wrapper").mouseover(function(){
+        $(".valign-wrapper").css("width", "lightgray");
+    });*/

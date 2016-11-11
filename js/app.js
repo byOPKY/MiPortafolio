@@ -3,7 +3,14 @@ $(document).ready(function(){
 	$(".fixed-action-btn").openFAB();
 	$(".fixed-action-btn").closeFAB();
 
-	$("#nombres").fadeOut(3000).fadeIn(6000);
+	$("#nombres").fadeIn(3000);
+   
+  	$('.collapsible').collapsible({
+      accordion: true, 
+      onOpen: function(el) { alert('Open'); }, 
+      onClose: function(el) { alert('Closed');} 
+ 	 });
+
 
 	start();
 	move();
@@ -62,13 +69,13 @@ $(document).ready(function(){
 	function up () {
 		var cohete = $("#cohete");
 		cohete.animate({
-			backgroundPositionY:"+=650px"
+			backgroundPositionY:"+=550px"
 		}, 0);
 		cohete.animate({
 			backgroundPositionY:"-=100px"
 		}, 2000);
 		cohete.animate({
-			backgroundPositionY:"-=550px"
+			backgroundPositionY:"-=450px"
 		}, 4000, up);
 		
 	}

@@ -2,29 +2,29 @@
 	box-sizing: border-box;
 	}
 body{
-	background-image: url("../img/cielo.jpg");
-	font-size: 20px;
+	background-color: #1D292C;
+	font-size: 17px;
 }
 .bg-vh{
 	height: 100vh;
 }
 #nombres{
-	font-family: "Clicker Script", cursive;
+	font-family: "Bungee Shade", cursive;
 	margin:0;
 	font-size: 120px;
-	text-shadow: 5px 5px 5px  #ffc400;
-	color: #ffc400;
+	text-shadow: 5px 5px 5px  #B16084;
+	color: white;
+	display: none;
+	padding: 3%;
 }
-#contact .ambar{
-	color: #ffc400;
-	padding: 12% 0;
-}
+
 #developer{
-	font-family: 'Bungee Shade', cursive;
+	font-family: "Special Elite", cursive;
+	color: white;
 	}
 #header{
-	background-image: url("../img/bkg_portafolio.jpg");
-	padding: 5% 6% 8% 6%;
+	background-image: url("../img/bg.jpg");
+	padding: 5%;
 	background-position: bottom;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -33,24 +33,35 @@ body{
 #nave{
 	background-image: url("../img/avistamiento.png");
 	background-repeat: no-repeat;
-	background-size: 18%;
-	height: 180px;
+	background-size: 15%;
+	height: 250px;
 	z-index: 99;
 }
 #ovni{
 	background-image: url("../img/nave.png");
 	background-repeat: no-repeat;
-	background-size: 10%;
-	height: 100px;
+	background-position: bottom;
+	background-size: 5%;
+	height: 70px;
 	z-index: 99;
+}
+header .btn-floating {
+	background-color: #B16084;
+}
+p {
+	text-align: justify;
+}
+.stronger{
+	font-weight: bolder;
 }
 .hidden{
 	display: none;
 }
-#mySelf .card-panel{
-	text-shadow: 1px 1px 1px  #ffc400;
-	color: #ffc400 ;
-
+#block{
+	padding: 2% 10%;
+}
+#block p {
+	padding: 0 5%;
 }
 .fixed-action-btn{
 	bottom: 45px; 
@@ -62,13 +73,14 @@ body{
 	background-repeat: no-repeat;
 	background-size: 14%;
 	height: 100vh;
-	padding: 20% 3%;
+	padding: 10% 3%;
 }
 section .about{
 	text-align: center;
 	z-index: 99;
-	color: #ffc400;
-	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 35px;
+	color:  white;
+	font-family: 'Bungee Shade', cursive;
 }
 #human{
 	background-position: bottom;
@@ -79,59 +91,23 @@ section .about{
 	padding: 20% 3%;
 }
 #works .trabajos{
-	padding: 10% 0;
+	padding: 3% 0 0 0;
 }
-
-.planetas{
-	background-position: top;
+#works{
+	background-color: #6A464F;
+}
+#mySelf{
+ 	color: white
+}
+#alien{
+	background-position: bottom;
+	background-image: url("../img/et.png");
 	background-repeat: no-repeat;
+	background-size: 80%;
 	height: 100vh;
-}
-#sol{
-	background-image: url("../img/sol.gif");
-	background-size: 50%;
-}
-#ceres{
-	background-image: url("../img/ceres.png");
-	background-size: 50%;
-}
-#marte{
-	background-image: url("../img/marte.png");
-	background-size: 40%;
+	padding: 10% 3%;
 }
 
-#tierra{
-	background-image: url("../img/tierra.gif");
-	background-size: 40%;
-}
-#venus{
-	background-image: url("../img/venus.png");
-	background-size: 40%;
-}
-#mercurio{
-	background-image: url("../img/mercurio.png");
-	background-size: 40%;
-}
-#saturno{
-	background-image: url("../img/saturno.png");
-	background-size: 50%;
-}
-#urano{
-	background-image: url("../img/urano.png");
-	background-size: 40%;
-}
-#neptuno{
-	background-image: url("../img/neptune.png");
-	background-size: 40%;
-}
-#pluton{
-	background-image: url("../img/pluton.png");
-	background-size: 40%;
-} 
-#jupiter{
-	background-image: url("../img/jupiter.png");
-	background-size: 40%;
-}
 #none{
 	display: none;
 }
@@ -151,7 +127,16 @@ section .about{
 	}
 	#header{
 		background-size: 350%;
-		padding: 1%;
+		padding: 25% 1%;
+	}
+	#nombres{
+		font-size: 55px;
+		text-align: center;
+		padding: 5% 0;
+	}
+	#developer{
+		font-size: 20px;
+		text-align: center;
 	}
 	#nave{
 		background-size: 20%;
@@ -162,7 +147,7 @@ section .about{
 		background-image: url("../img/nave.png");
 		background-repeat: no-repeat;
 		background-size: 13%;
-		height: 50px;
+		height: 100px;
 		z-index: 99;
 	}
 	#none{
@@ -172,6 +157,7 @@ section .about{
 	#block{
 		display: none;
 	}
-
+	#alien{
+		padding: 0}
 
 }

@@ -3,7 +3,7 @@
 	}
 body{
 	background-color: #1D292C;
-	font-size: 17px;
+	font-size: 18px;
 	font-family: "Special Elite", cursive;
 	letter-spacing: 1px;
 }
@@ -24,12 +24,6 @@ body{
 	color: white;
 	font-family: "Special Elite", cursive;
 	}
-.bgr-nr{
-	background-repeat: no-repeat;
-}
-.bgp-b{
-	background-position: bottom;
-}
 #header{
 	background-attachment: fixed;
 	background-image: url("../img/bg.jpg");
@@ -70,27 +64,29 @@ p {
 	bottom: 45px; 
 	right: 24px;
 }
+.bgr-nr{
+	background-repeat: no-repeat;
+}
+.bgp-b{
+	background-position: bottom;
+}
 #cohete{
 	background-position: top;
 	background-image: url("../img/lanave.png");
-	background-repeat: no-repeat;
 	background-size: 14%;
-	height: 100vh;
 	padding: 10% 3%;
 }
 section .about{
-	text-align: center;
-	z-index: 99;
-	font-size: 35px;
 	color:  white;
 	font-family: 'Bungee Shade', cursive;
+	font-size: 35px;
+	text-align: center;
+	z-index: 99;
 }
 #human{
-	background-position: bottom;
 	background-image: url("../img/astronauta.png");
-	background-repeat: no-repeat;
+	background-position: bottom;
 	background-size: 50%;
-	height: 100vh;
 	padding: 20% 3%;
 }
 #works .trabajos{
@@ -103,30 +99,41 @@ section .about{
  	color: white
 }
 #alien{
-	background-position: bottom;
+	background-position: center;
 	background-image: url("../img/et.png");
-	background-repeat: no-repeat;
 	background-size: 80%;
-	height: 100vh;
 	padding: 10% 3%;
 }
 
 #none{
 	display: none;
 }
-
-@media. (max-width: 900px) {
-
+#contact{
+		padding: 5% 0;
+	}
+@media (max-width: 900px) {
+	#header{
+		background-size: 250%;
+		padding: 25% 2%;
+	}
+	#nombres{
+		font-size: 100px;
+		padding: 5% 0;
+	}
+	#developer{
+		font-size: 45px;
+	}
+	#nave{
+		background-size: 22%;
+	}
+	#contact{
+		padding: 35% 0;
+	}
 }
-@media (max-width: 700px) {
-	
-}
+
 @media (max-width: 600px) {
 	body{
-			font-size: 16px;
-	}
-	header .fixed-action-btn{
-		display: none;
+			font-size: 17px;
 	}
 	#header{
 		background-size: 350%;
@@ -134,11 +141,11 @@ section .about{
 	}
 	#nombres{
 		font-size: 50px;
-		text-align: center;
 		padding: 5% 0;
+		
 	}
 	#developer{
-		font-size: 25px;
+		font-size: 20px;
 		text-align: center;
 	}
 	#nave{
@@ -154,7 +161,7 @@ section .about{
 		z-index: 99;
 	}
 	#none{
-	display: block;
+		display: block;
 	}
 
 	#block{
@@ -163,15 +170,11 @@ section .about{
 	#alien{
 		padding: 0}
 	#contact{
+		padding: 0;
 		word-wrap: break-word;
 	}
-}
-@media (max-width: 600px) {
-	#none{
-	display: none;
+	section .about{
+		height: 255px;
 	}
 
-	#block{
-		display: block;
-	}
 }

@@ -45,6 +45,12 @@ body{
 header .btn-floating {
 	background-color: #B16084;
 }
+#works a{
+	background-color: #B16084;
+}
+#works a:hover{
+	opacity: 0.7;
+}
 p {
 	text-align: justify;
 }
@@ -109,8 +115,12 @@ section .about{
 	display: none;
 }
 #contact{
-		padding: 5% 0;
+		padding: 8% 0;
+		background-image: url("../img/cielo.jpg");
 	}
+.gmail{
+	color: white;
+}
 @media (max-width: 900px) {
 	#header{
 		background-size: 250%;

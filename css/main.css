@@ -101,9 +101,6 @@ section .about{
 #works{
 	background-color: #6A464F;
 }
-#mySelf{
- 	color: white
-}
 #alien{
 	background-position: center;
 	background-image: url("../img/et.png");
@@ -115,11 +112,15 @@ section .about{
 	display: none;
 }
 #contact{
-		padding: 8% 0;
-		background-image: url("../img/cielo.jpg");
-	}
+	background-image: url("../img/cielo.jpg");
+	padding: 8% 0;
+}
 .gmail{
 	color: white;
+}
+#mySelf{
+	color: white;
+	padding: 5% 0;
 }
 @media (max-width: 900px) {
 	#header{
@@ -139,11 +140,14 @@ section .about{
 	#contact{
 		padding: 35% 0;
 	}
+	#works a:hover{
+	opacity:1;
+	}
 }
 
 @media (max-width: 600px) {
 	body{
-			font-size: 17px;
+		font-size: 17px;
 	}
 	#header{
 		background-size: 350%;
@@ -186,5 +190,4 @@ section .about{
 	section .about{
 		height: 255px;
 	}
-
 }

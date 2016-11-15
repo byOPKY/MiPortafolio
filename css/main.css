@@ -10,6 +10,9 @@ body{
 .bg-vh{
 	height: 100vh;
 }
+header .btn-floating {
+	background-color: #B16084;
+}
 #nombres{
 	color: white;
 	display: none;
@@ -19,7 +22,6 @@ body{
 	padding: 3%;
 	text-shadow: 5px 5px 5px  #B16084;
 }
-
 #developer{
 	color: white;
 	font-family: "Special Elite", cursive;
@@ -42,14 +44,29 @@ body{
 	height: 70px;
 	z-index: 99;
 }
-header .btn-floating {
-	background-color: #B16084;
+.bgr-nr{
+	background-repeat: no-repeat;
 }
-#works a{
-	background-color: #B16084;
+.bgp-b{
+	background-position: bottom;
 }
-#works a:hover{
-	opacity: 0.7;
+#cohete{
+	background-position: top;
+	background-image: url("../img/lanave.png");
+	background-size: 14%;
+	padding: 10% 3%;
+}
+#human{
+	background-image: url("../img/astronauta.png");
+	background-position: bottom;
+	background-size: 50%;
+	padding: 20% 3%;
+}
+#alien{
+	background-position: center;
+	background-image: url("../img/et.png");
+	background-size: 80%;
+	padding: 10% 3%;
 }
 p {
 	text-align: justify;
@@ -70,18 +87,6 @@ p {
 	bottom: 45px; 
 	right: 24px;
 }
-.bgr-nr{
-	background-repeat: no-repeat;
-}
-.bgp-b{
-	background-position: bottom;
-}
-#cohete{
-	background-position: top;
-	background-image: url("../img/lanave.png");
-	background-size: 14%;
-	padding: 10% 3%;
-}
 section .about{
 	color:  white;
 	font-family: 'Bungee Shade', cursive;
@@ -89,25 +94,21 @@ section .about{
 	text-align: center;
 	z-index: 99;
 }
-#human{
-	background-image: url("../img/astronauta.png");
-	background-position: bottom;
-	background-size: 50%;
-	padding: 20% 3%;
-}
 #works .trabajos{
 	padding: 3% 0 0 0;
 }
 #works{
 	background-color: #6A464F;
 }
-#alien{
-	background-position: center;
-	background-image: url("../img/et.png");
-	background-size: 80%;
-	padding: 10% 3%;
+#works a{
+	background-color: #B16084;
 }
-
+#works a:hover{
+	opacity: 0.7;
+}
+#works .trabajos .card-panel{
+	opacity: 0;
+}
 #none{
 	display: none;
 }
@@ -151,7 +152,7 @@ section .about{
 	}
 	#header{
 		background-size: 350%;
-		padding: 25% 1%;
+		padding: 20% 1%;
 	}
 	#nombres{
 		font-size: 50px;

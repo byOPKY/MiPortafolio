@@ -3,7 +3,7 @@
 	}
 body{
 	background-color: #1D292C;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: "Special Elite", cursive;
 	letter-spacing: 1px;
 }
@@ -177,6 +177,7 @@ section .about{
 	section .about{
 		height: 305px;
 		padding-top: 35%;
+		font-size: 60px;
 	}
 }
 @media (max-width: 600px) {
@@ -224,5 +225,6 @@ section .about{
 	section .about{
 		height: 255px;
 		padding-top: 35%;
+		font-size: 35px;
 	}
 }

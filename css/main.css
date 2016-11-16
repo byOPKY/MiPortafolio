@@ -115,7 +115,9 @@ section .about{
 }
 #contact{
 	background-image: url("../img/cielo.jpg");
-	padding: 8% 0;
+}
+#contact .padding-t{
+	padding-top: 5%;
 }
 .gmail{
 	color: white;
@@ -158,11 +160,14 @@ section .about{
 		background-size: 22%;
 	}
 	#contact{
-		padding: 35% 0;
+		
 	}
 	#works a:hover{
 	opacity:1;
 	}
+	#contact .padding-t{
+	padding-top: 40%;
+}
 }
 @media (max-width: 800px) {
 	#header{

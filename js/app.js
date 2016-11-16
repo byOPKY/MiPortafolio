@@ -116,10 +116,56 @@ $(document).ready(function(){
 	  var windowWidth = $(this).width();
 	  var windowHeight = $(this).height();
 	  var windowScrollTop = $(this).scrollTop();
-		if(windowScrollTop>550){
-	       firstAnimation()
-	    }
+	  	if(windowScrollTop>550){
+		       firstAnimation()
+		    }
+	  	if(windowWidth>849){
+		    if(windowScrollTop>1450){
+		       secondAnimation();
+		    }
+		    if(windowScrollTop>1250){
+		       thirdAnimation()
+		    }
+		}
+		if(windowWidth<=849){
+		    if(windowScrollTop>2850){
+		       secondAnimation();
+		    }
+		    if(windowScrollTop>2650){
+		       thirdAnimation()
+		    }
+		}
+	    if(windowWidth<=549){
+		    if(windowScrollTop>3150){
+	       		thirdAnimation()
+	    	}
+	    	if(windowScrollTop>3750) {
+		    	fourthAnimation();
+		    }
+		}
 	});
+
+	var secondAnimation = function(){
+		$("#mySelf .card-panel:eq(0)").delay(1000).animate({opacity:1, right:0},"slow");
+    	$("#mySelf .card-panel:eq(1)").delay(2000).animate({opacity:1, right:0},"slow");
+	}
+	var thirdAnimation = function(){
+		$("#mySelf p:eq(0)").delay(1000).animate({opacity:1, left:0},"slow");
+    	$("#mySelf p:eq(1)").delay(2000).animate({opacity:1, left:0},"slow");
+    	$("#mySelf p:eq(2)").delay(3000).animate({opacity:1, left:0},"slow");
+    	$("#mySelf p:eq(3)").delay(1000).animate({opacity:1, left:0},"slow");
+    	$("#mySelf p:eq(4)").delay(2000).animate({opacity:1, left:0},"slow");
+    	$("#mySelf p:eq(5)").delay(3000).animate({opacity:1, left:0},"slow");
+	}
+	var fourthAnimation = function(){
+		$("#none .circle:eq(0)").delay(1000).animate({opacity:1, right:0},"slow");
+    	$("#none .circle:eq(1)").delay(2000).animate({opacity:1, right:0},"slow");
+    	$("#none .circle:eq(2)").delay(3000).animate({opacity:1, right:0},"slow");
+    	$("#none .circle:eq(3)").delay(4000).animate({opacity:1, right:0},"slow");
+    	$("#none .circle:eq(4)").delay(5000).animate({opacity:1, right:0},"slow");
+    	$("#none .circle:eq(5)").delay(6000).animate({opacity:1, right:0},"slow");
+	}
+
 
 });
 /*$(".valign-wrapper").mouseover(function(){

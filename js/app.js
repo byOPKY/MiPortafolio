@@ -102,15 +102,16 @@ $(document).ready(function(){
 		}, 4000, jump);
 		
 	}
+
 	var firstAnimation = function(){			
-    $(".card-panel:eq(0)").delay(1000).animate({opacity:1},"slow");
-    $(".card-panel:eq(1)").delay(2000).animate({opacity:1},"slow");
-    $(".card-panel:eq(2)").delay(3000).animate({opacity:1},"slow");
-    $(".card-panel:eq(3)").delay(4000).animate({opacity:1},"slow");
-    $(".card-panel:eq(4)").delay(5000).animate({opacity:1},"slow");
-    $(".card-panel:eq(5)").delay(6000).animate({opacity:1},"slow");
-    $(".card-panel:eq(6)").delay(7000).animate({opacity:1},"slow");
-    $(".card-panel:eq(7)").delay(8000).animate({opacity:1},"slow");
+    $(".card-panel:eq(0)").delay(500).animate({opacity:1},"slow");
+    $(".card-panel:eq(1)").delay(1000).animate({opacity:1},"slow");
+    $(".card-panel:eq(2)").delay(1500).animate({opacity:1},"slow");
+    $(".card-panel:eq(3)").delay(2000).animate({opacity:1},"slow");
+    $(".card-panel:eq(4)").delay(2500).animate({opacity:1},"slow");
+    $(".card-panel:eq(5)").delay(3000).animate({opacity:1},"slow");
+    $(".card-panel:eq(6)").delay(3500).animate({opacity:1},"slow");
+    $(".card-panel:eq(7)").delay(4000).animate({opacity:1},"slow");
 	}
 	$(window).scroll(function(){
 	  var windowWidth = $(this).width();

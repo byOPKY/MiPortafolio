@@ -152,7 +152,10 @@ section .about{
 .small-text{
 	font-size: 0.8em;
 }
-
+footer{
+	padding: 5px;
+	color: white;
+}
 @media (max-width: 950px) {
 	#header{
 		background-size: 300%;

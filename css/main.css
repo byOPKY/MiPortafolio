@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	}
 body{
-	background-color: #1D292C;
+	background-color: #6A464F;
 	font-size: 20px;
 	font-family: "Special Elite", cursive;
 	letter-spacing: 1px;
@@ -99,6 +99,7 @@ section .about{
 	padding: 3% 0 0 0;
 }
 #works{
+	
 	background-color: #6A464F;
 }
 #works a{
@@ -124,6 +125,7 @@ section .about{
 	color: white;
 }
 #mySelf{
+	background-color: #1D292C;
 	color: white;
 	padding: 5% 0;
 }
